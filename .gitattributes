@@ -1,0 +1,14 @@
+# Force LF line endings for all text files across all platforms
+* text=auto eol=lf
+
+# Explicitly mark binary files to prevent corruption during conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.ico binary
+*.webp binary
