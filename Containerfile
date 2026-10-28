@@ -49,6 +49,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libgl1-mesa-dri \
     xfce4-clipman \
     xclip \
+    tmux \
     && rm -rf /var/lib/apt/lists/*
 
 # Replace Ubuntu's noVNC 1.3.0 with 1.7.0 from upstream.
